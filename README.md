@@ -1,10 +1,10 @@
 # Typing-Speed-App
 This is an app for testing your typing speed in many languages with different levels and times.
-## Covered Topics :
+## Covered Topics
   - html5
   - Sass /css3
   - javaScript / Es6 / TypeScript
-  - Dom / Bom / Json / sound
+  - Dom / Bom / Json / sound / classes / interfaces
 ## App Functionalities
   - Before Playing you make your typing setup.
   - Your Nmae, select your Language (English/ Arabic),
