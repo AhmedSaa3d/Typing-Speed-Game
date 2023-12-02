@@ -1,5 +1,5 @@
 # Typing-Speed-App
-- This is an app for testing your typing speed in many languages with different levels and times.
+This is an app for testing your typing speed in many languages with different levels and times.
 ## Covered Topics :
   - html5
   - Sass /css3
