@@ -7,4 +7,8 @@
   - Dom / Bom / Json / sound
 # Site ScreenShot :
 ![](assets/screenShots/Typing-Speed-Test-App-mainMenu.png)
-![](assets\screenShots\Typing-Speed-Test-App-mainMenu.png)
+![](assets/screenShots/Typing-Speed-Test-App-setupMenu.png)
+![](assets/screenShots/Typing-Speed-Test-App-highscoreMenu.png)
+![](assets/screenShots/Typing-Speed-Test-App-playingPage.png)
+![](assets/screenShots/Typing-Speed-Test-App-playingPageEnglish.png)
+![](assets/screenShots/Typing-Speed-Test-App-playingPageArabic.png)
