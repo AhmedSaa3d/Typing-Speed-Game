@@ -17,7 +17,7 @@ This is an app for testing your typing speed in many languages with different le
   - during typing you will see the correct words wrongs words chars/min, words/min and the accuarcy.
   - in every char input there is a sound effects and in corrects words, wrongs words, after finishing the typing.
   - after fininshing you can make it again, again and again.
-# Site ScreenShot :
+# Site ScreenShot
 ![](assets/screenShots/Typing-Speed-Test-App-mainMenu.png)
 ![](assets/screenShots/Typing-Speed-Test-App-setupMenu.png)
 ![](assets/screenShots/Typing-Speed-Test-App-highscoreMenu.png)
