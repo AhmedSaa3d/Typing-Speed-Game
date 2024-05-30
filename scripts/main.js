@@ -99,10 +99,10 @@ var CTypingAnalysis = /** @class */ (function () {
 var CTypingMode = /** @class */ (function () {
     function CTypingMode() {
         var _this = this;
-        this.clickAudio = new Audio("../assets/audios/keyboard-spacebar-hit.mp3");
-        this.correctAudio = new Audio("../assets/audios/correctWord.mp3");
-        this.wrondAudio = new Audio("../assets/audios/wrongWord.mp3");
-        this.finishAudio = new Audio("../assets/audios/completion-of-a-level.wav");
+        this.clickAudio = new Audio("https://ahmedsaa3d.github.io/Typing-Speed-Game/assets/audios/keyboard-spacebar-hit.mp3");
+        this.correctAudio = new Audio("https://ahmedsaa3d.github.io/Typing-Speed-Game/assets/audios/correctWord.mp3");
+        this.wrondAudio = new Audio("https://ahmedsaa3d.github.io/Typing-Speed-Game/assets/audios/wrongWord.mp3");
+        this.finishAudio = new Audio("https://ahmedsaa3d.github.io/Typing-Speed-Game/assets/audios/completion-of-a-level.wav");
         this.accuarcyTimer = 0;
         this.decTimer = function () {
             _this.currentTimer--;
@@ -284,7 +284,7 @@ function createLclObj(nme, words, acc, lng) {
 }
 function fillWords() {
     var myRequset = new XMLHttpRequest();
-    myRequset.open("GET", "../languages/".concat(setupInit.language, "/").concat(setupInit.language, "-").concat(setupInit.level, ".json"), true);
+    myRequset.open("GET", "https://ahmedsaa3d.github.io/Typing-Speed-Game/languages/".concat(setupInit.language, "/").concat(setupInit.language, "-").concat(setupInit.level, ".json"), true);
     myRequset.send();
     myRequset.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
