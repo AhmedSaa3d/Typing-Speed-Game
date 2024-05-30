@@ -29,7 +29,7 @@
     🔹Once the timer finishes or you choose to stop, your results are displayed.
     🔹The app allows you to easily restart the test, offering endless practice opportunities to hone your typing skills.
 
-## Live Demo: [Typing Speed App Live Demo](https://ahmedsaa3d.github.io/Flip-Card-Game/)
+## Live Demo: [Typing Speed App Live Demo](https://ahmedsaa3d.github.io/Typing-Speed-Game/)
 
 ## GitHub Repository: [Typing Speed App GitHub Repository](https://github.com/AhmedSaa3d/Typing-Speed-Game)
 
