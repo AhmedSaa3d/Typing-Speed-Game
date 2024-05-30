@@ -88,10 +88,10 @@ class CTypingAnalysis implements ITypingAnalysis {
 //#region Mode Class
 class CTypingMode implements ITypingMode{
   musicAllowing: boolean;
-  clickAudio: HTMLAudioElement = new Audio("../assets/audios/keyboard-spacebar-hit.mp3");
-  correctAudio: HTMLAudioElement = new Audio("../assets/audios/correctWord.mp3");
-  wrondAudio: HTMLAudioElement = new Audio("../assets/audios/wrongWord.mp3");
-  finishAudio: HTMLAudioElement = new Audio("../assets/audios/completion-of-a-level.wav");
+  clickAudio: HTMLAudioElement = new Audio("https://ahmedsaa3d.github.io/Typing-Speed-Game/assets/audios/keyboard-spacebar-hit.mp3");
+  correctAudio: HTMLAudioElement = new Audio("https://ahmedsaa3d.github.io/Typing-Speed-Game/assets/audios/correctWord.mp3");
+  wrondAudio: HTMLAudioElement = new Audio("https://ahmedsaa3d.github.io/Typing-Speed-Game/assets/audios/wrongWord.mp3");
+  finishAudio: HTMLAudioElement = new Audio("https://ahmedsaa3d.github.io/Typing-Speed-Game/assets/audios/completion-of-a-level.wav");
   startTimer: number
   currentTimer: number;
   accuarcyTimer: number = 0;
@@ -292,7 +292,7 @@ function createLclObj(nme:string, words: number, acc: number, lng:string){
 }
 function fillWords() : void{
   let myRequset : XMLHttpRequest = new XMLHttpRequest();
-  myRequset.open("GET", `../languages/${setupInit.language}/${setupInit.language}-${setupInit.level}.json`, true);
+  myRequset.open("GET", `https://ahmedsaa3d.github.io/Typing-Speed-Game/languages/${setupInit.language}/${setupInit.language}-${setupInit.level}.json`, true);
   myRequset.send();
   myRequset.onreadystatechange = function () {
     if (this.readyState === 4 && this.status === 200) {
